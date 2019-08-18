@@ -61,8 +61,13 @@ end
 
 def adding_matz
 
+<<<<<<< HEAD
  programmer_hash = 
  		{
+=======
+  programmer_hash = 
+    {
+>>>>>>> 7767f4aeb42622b8a044d2aa9d872c500cb4431c
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
@@ -77,12 +82,18 @@ def adding_matz
         }
      }
 
+<<<<<<< HEAD
     programmer_hash[:yukihiro_matsumoto] = {}
     programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
     programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
     programmer_hash
+=======
+		 programmer_hash[:yukihiro_matsumoto] = {}
+		 programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+		 programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
+		 programmer_hash
+>>>>>>> 7767f4aeb42622b8a044d2aa9d872c500cb4431c
 end
-
 def changing_alan
 	programmer_hash = 
  		{
